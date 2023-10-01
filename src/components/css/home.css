@@ -1,0 +1,143 @@
+#bon{
+   /* background-image: linear-gradient(to right top, #d1c86b, #ccce6e, #c7d472, #c1d977, #badf7d, #9de18a, #7ee39c, #5ae3af, #00dcd1, #00d1ec, #00c2fc, #5fb1fb); 
+   background-image: linear-gradient(to top, #053714, #003e2e, #004546, #00495c, #004c6a, #005173, #00577b, #005c84, #00678a, #00728f, #007d91, #008793);}*/
+}
+#home{
+   /* background-image: linear-gradient(to bottom, #053714, #003e2e, #004546, #00495c, #004c6a, #005173, #00577b, #005c84, #00678a, #00728f, #007d91, #008793); */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+li {
+    list-style:none;
+   
+}
+@media (prefers-reduced-motion: no-preference) {
+    #langue {
+      animation: bonceLeft infinite 20s linear;
+    }
+
+    .card:hover{
+        animation: myAnim normal 1s forwards;
+    }
+  }
+
+
+
+  @keyframes bonceLeft {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(-48px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(-26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(-13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(-6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(-4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  
+  
+  
+  
